@@ -73,11 +73,11 @@ const generateDefaultScenes = (): Scene[] => {
   const sceneTemplates = [
     {
       title: 'Intro & Brand Hook',
-      description: 'The camera sweeps across a dark landscape. A neon logo flickers to life in the center.',
+      description: 'The can tumbles into frame against a cool teal gradient as a ribbon of ice-cold water wraps around it in a single dynamic splash. Condensation beads glisten across the chilled aluminum, hooking the viewer with an instant sense of refreshment.',
       textOverlayStyle: 'Lower Thirds',
-      textOverlayContent: 'Neon Brand Logo',
+      textOverlayContent: 'Crack Open Cold.',
       tags: ["Dark", "Logo"],
-      cameraMove: "Orbit around the glowing neon core showing depth of landscape",
+      cameraMove: "Slow orbit around the tumbling can as the water ribbon whips past, settling into a three-quarter hero angle.",
       shotCount: 3,
       references: [
         { id: 'ref-1', url: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=300&auto=format&fit=crop', note: 'Moodboard - futuristic neon' },
@@ -86,11 +86,11 @@ const generateDefaultScenes = (): Scene[] => {
     },
     {
       title: 'Character Introduction',
-      description: 'The hero is revealed standing on a wet street looking up at skyscrapers.',
+      description: "Our hero takes center stage in a tighter, more intimate composition. Condensation renders in crisp photoreal detail as the water splash arcs dramatically behind the can, the background gradient warming from deep teal to icy cyan.",
       textOverlayStyle: 'Minimal Subtitles',
-      textOverlayContent: 'Act I: The Descent',
+      textOverlayContent: 'Chilled to Perfection.',
       tags: ["Character", "Sci-Fi"],
-      cameraMove: "Tilt up from wet pavement to hero's face, then pull back and pan up to skyline",
+      cameraMove: "Tilt up along the can's body from base to rim, tracking the water splash as it sweeps across the frame.",
       shotCount: 2,
       references: [
         { id: 'ref-3', url: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=300&auto=format&fit=crop', note: 'Character back-lighting reference' }
@@ -98,11 +98,11 @@ const generateDefaultScenes = (): Scene[] => {
     },
     {
       title: 'The Chase Sequence',
-      description: 'High-speed chase through the narrow neon alleys. Hovercycles weave through traffic.',
-      textOverlayStyle: 'None',
-      textOverlayContent: '',
+      description: 'The energy peaks as a continuous ribbon of water chases around the can in one unbroken wrap, the pull-tab catching a glint of light at the height of the motion in this diagonal hero pose.',
+      textOverlayStyle: 'Kinetic Typography',
+      textOverlayContent: 'Feel The Fizz.',
       tags: ["Action", "VFX"],
-      cameraMove: "Wide tracking shot following the cycles, cutting to tight dynamic close-ups",
+      cameraMove: "Fast tracking shot circling the can as the water ribbon whips through frame, cutting to a tight, dynamic close-up on the tab.",
       shotCount: 5,
       references: [
         { id: 'ref-4', url: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=300&auto=format&fit=crop', note: 'Fast action motion blur ref' }
@@ -110,11 +110,11 @@ const generateDefaultScenes = (): Scene[] => {
     },
     {
       title: 'The Hidden Lab',
-      description: 'The characters break into the holographic research lab, activating the central reactor.',
+      description: 'A hidden layer of detail is revealed as the camera pushes into extreme macro, gliding across the shoulder of the can to showcase photoreal condensation droplets beading and trickling down the chilled aluminum.',
       textOverlayStyle: 'Call-out Labels',
-      textOverlayContent: 'System Active - 100%',
+      textOverlayContent: 'Condensation Detail',
       tags: ["Interior", "Holograms"],
-      cameraMove: "Circular crane shot rising above the reactor as holograms expand",
+      cameraMove: "Slow macro push-in rising along the can's curvature, holding on the droplet texture before settling center-frame.",
       shotCount: 4,
       references: [
         { id: 'ref-5', url: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=300&auto=format&fit=crop', note: 'Lab console interfaces' }
@@ -122,11 +122,11 @@ const generateDefaultScenes = (): Scene[] => {
     },
     {
       title: 'Climax & Title Card',
-      description: 'An explosion of golden energy forces the screen to whiteout before settling into the final title.',
+      description: 'The sequence reaches its climax as the camera settles directly overhead on the pull-tab while a final splash crashes past in the background, holding on the crisp aluminum lid before resolving into the closing title card.',
       textOverlayStyle: 'Title Card',
-      textOverlayContent: 'NEON RUNNER',
+      textOverlayContent: 'ICE COLD. ALWAYS.',
       tags: ["VFX", "Outro"],
-      cameraMove: "Push forward aggressively into the center light, slow transition to static text",
+      cameraMove: "Top-down push into the pull-tab, then a slow pull-back and fade as the title resolves over the final splash.",
       shotCount: 2,
       references: [
         { id: 'ref-6', url: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=300&auto=format&fit=crop', note: 'Golden light burst look' }
